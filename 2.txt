@@ -1,0 +1,413 @@
+	<raw-request>
+		<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.brinksoftware.com/webservices/ordering/20140219" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:sys="http://schemas.datacontract.org/2004/07/System">
+			<soapenv:Header/>
+			<soapenv:Body>
+				<ns:CalculateOrder>
+					<ns:request xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+						<ns:Order>
+							<ns:DestinationId>1</ns:DestinationId>
+							<ns:Discounts>
+								<ns:NewOrderDiscount>
+									<ns:Amount>10.00</ns:Amount>
+									<ns:DiscountId>209103</ns:DiscountId>
+									<ns:Id>41</ns:Id>
+									<ns:Name>Product Discount on Food for Groups</ns:Name>
+									<ns:OrderItemIds>
+										<arr:int>1</arr:int>
+										<arr:int>6</arr:int>
+										<arr:int>11</arr:int>
+										<arr:int>16</arr:int>
+										<arr:int>21</arr:int>
+										<arr:int>26</arr:int>
+										<arr:int>31</arr:int>
+										<arr:int>36</arr:int>
+									</ns:OrderItemIds>
+								</ns:NewOrderDiscount>
+							</ns:Discounts>
+							<ns:FutureOrder>
+								<ns:EmailAddress>noemail@modmarket.com</ns:EmailAddress>
+								<ns:PhoneNumber>(214) 294-5307</ns:PhoneNumber>
+								<ns:PickupTime>
+									<sys:DateTime>2015-08-06T16:30:00</sys:DateTime>
+									<sys:OffsetMinutes>0</sys:OffsetMinutes>
+								</ns:PickupTime>
+								<ns:SendReminderEmail>true</ns:SendReminderEmail>
+							</ns:FutureOrder>
+							<ns:IsTaxExempt>0</ns:IsTaxExempt>
+							<ns:Items>
+								<ns:NewOrderItem>
+									<ns:Description>Food for Groups</ns:Description>
+									<ns:Id>21</ns:Id>
+									<ns:ItemId>207260</ns:ItemId>
+									<ns:Modifiers>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Chipotle Steak *</ns:Description>
+											<ns:Id>22</ns:Id>
+											<ns:ItemId>207982</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207973</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Cookie</ns:Description>
+											<ns:Id>23</ns:Id>
+											<ns:ItemId>207868</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207855</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Farmer *</ns:Description>
+											<ns:Id>24</ns:Id>
+											<ns:ItemId>208011</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208006</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>No Protein Add-On</ns:Description>
+											<ns:Id>25</ns:Id>
+											<ns:ItemId>208029</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208031</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+									</ns:Modifiers>
+									<ns:Price>10.00</ns:Price>
+									<ns:DestinationId>1</ns:DestinationId>
+									<ns:Note>cut in 1/4&apos;s but PLEASE be sure sandwiches do not look like all bread. VERY IMPORTANT SAMPLING</ns:Note>
+								</ns:NewOrderItem>
+								<ns:NewOrderItem>
+									<ns:Description>Food for Groups</ns:Description>
+									<ns:Id>1</ns:Id>
+									<ns:ItemId>207260</ns:ItemId>
+									<ns:Modifiers>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Cookie</ns:Description>
+											<ns:Id>3</ns:Id>
+											<ns:ItemId>207868</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207855</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Arugula Mozz * </ns:Description>
+											<ns:Id>2</ns:Id>
+											<ns:ItemId>207976</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207973</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>No Protein Add-On</ns:Description>
+											<ns:Id>5</ns:Id>
+											<ns:ItemId>208029</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208031</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Farmer *</ns:Description>
+											<ns:Id>4</ns:Id>
+											<ns:ItemId>208011</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208006</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+									</ns:Modifiers>
+									<ns:Price>10.00</ns:Price>
+									<ns:DestinationId>1</ns:DestinationId>
+									<ns:Note>cut in 1/4&apos;s but PLEASE be sure sandwiches do not look like all bread. VERY IMPORTANT SAMPLING</ns:Note>
+								</ns:NewOrderItem>
+								<ns:NewOrderItem>
+									<ns:Description>Food for Groups</ns:Description>
+									<ns:Id>6</ns:Id>
+									<ns:ItemId>207260</ns:ItemId>
+									<ns:Modifiers>
+										<ns:NewOrderItemModifier>
+											<ns:Description>No Protein Add-On</ns:Description>
+											<ns:Id>10</ns:Id>
+											<ns:ItemId>208029</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208031</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Arugula Mozz * </ns:Description>
+											<ns:Id>7</ns:Id>
+											<ns:ItemId>207976</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207973</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Farmer *</ns:Description>
+											<ns:Id>9</ns:Id>
+											<ns:ItemId>208011</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208006</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Cookie</ns:Description>
+											<ns:Id>8</ns:Id>
+											<ns:ItemId>207868</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207855</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+									</ns:Modifiers>
+									<ns:Price>10.00</ns:Price>
+									<ns:DestinationId>1</ns:DestinationId>
+									<ns:Note>cut in 1/4&apos;s but PLEASE be sure sandwiches do not look like all bread. VERY IMPORTANT SAMPLING</ns:Note>
+								</ns:NewOrderItem>
+								<ns:NewOrderItem>
+									<ns:Description>Food for Groups</ns:Description>
+									<ns:Id>31</ns:Id>
+									<ns:ItemId>207260</ns:ItemId>
+									<ns:Modifiers>
+										<ns:NewOrderItemModifier>
+											<ns:Description>BLT+A</ns:Description>
+											<ns:Id>32</ns:Id>
+											<ns:ItemId>207984</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207973</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>No Protein Add-On</ns:Description>
+											<ns:Id>35</ns:Id>
+											<ns:ItemId>208029</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208031</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Cookie</ns:Description>
+											<ns:Id>33</ns:Id>
+											<ns:ItemId>207868</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207855</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Farmer *</ns:Description>
+											<ns:Id>34</ns:Id>
+											<ns:ItemId>208011</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208006</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+									</ns:Modifiers>
+									<ns:Price>10.00</ns:Price>
+									<ns:DestinationId>1</ns:DestinationId>
+									<ns:Note>cut in 1/4&apos;s but PLEASE be sure sandwiches do not look like all bread. VERY IMPORTANT SAMPLING</ns:Note>
+								</ns:NewOrderItem>
+								<ns:NewOrderItem>
+									<ns:Description>Food for Groups</ns:Description>
+									<ns:Id>36</ns:Id>
+									<ns:ItemId>207260</ns:ItemId>
+									<ns:Modifiers>
+										<ns:NewOrderItemModifier>
+											<ns:Description>No Protein Add-On</ns:Description>
+											<ns:Id>40</ns:Id>
+											<ns:ItemId>208029</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208031</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Farmer *</ns:Description>
+											<ns:Id>39</ns:Id>
+											<ns:ItemId>208011</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208006</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>BLT+A</ns:Description>
+											<ns:Id>37</ns:Id>
+											<ns:ItemId>207984</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207973</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Cookie</ns:Description>
+											<ns:Id>38</ns:Id>
+											<ns:ItemId>207868</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207855</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+									</ns:Modifiers>
+									<ns:Price>10.00</ns:Price>
+									<ns:DestinationId>1</ns:DestinationId>
+									<ns:Note>cut in 1/4&apos;s but PLEASE be sure sandwiches do not look like all bread. VERY IMPORTANT SAMPLING</ns:Note>
+								</ns:NewOrderItem>
+								<ns:NewOrderItem>
+									<ns:Description>Food for Groups</ns:Description>
+									<ns:Id>16</ns:Id>
+									<ns:ItemId>207260</ns:ItemId>
+									<ns:Modifiers>
+										<ns:NewOrderItemModifier>
+											<ns:Description>No Protein Add-On</ns:Description>
+											<ns:Id>20</ns:Id>
+											<ns:ItemId>208029</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208031</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Farmer *</ns:Description>
+											<ns:Id>19</ns:Id>
+											<ns:ItemId>208011</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208006</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Basil Chicken *</ns:Description>
+											<ns:Id>17</ns:Id>
+											<ns:ItemId>207978</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207973</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Cookie</ns:Description>
+											<ns:Id>18</ns:Id>
+											<ns:ItemId>207868</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207855</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+									</ns:Modifiers>
+									<ns:Price>10.00</ns:Price>
+									<ns:DestinationId>1</ns:DestinationId>
+									<ns:Note>cut in 1/4&apos;s but PLEASE be sure sandwiches do not look like all bread. VERY IMPORTANT SAMPLING</ns:Note>
+								</ns:NewOrderItem>
+								<ns:NewOrderItem>
+									<ns:Description>Food for Groups</ns:Description>
+									<ns:Id>26</ns:Id>
+									<ns:ItemId>207260</ns:ItemId>
+									<ns:Modifiers>
+										<ns:NewOrderItemModifier>
+											<ns:Description>No Protein Add-On</ns:Description>
+											<ns:Id>30</ns:Id>
+											<ns:ItemId>208029</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208031</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Chipotle Steak *</ns:Description>
+											<ns:Id>27</ns:Id>
+											<ns:ItemId>207982</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207973</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Cookie</ns:Description>
+											<ns:Id>28</ns:Id>
+											<ns:ItemId>207868</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207855</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Farmer *</ns:Description>
+											<ns:Id>29</ns:Id>
+											<ns:ItemId>208011</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208006</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+									</ns:Modifiers>
+									<ns:Price>10.00</ns:Price>
+									<ns:DestinationId>1</ns:DestinationId>
+									<ns:Note>cut in 1/4&apos;s but PLEASE be sure sandwiches do not look like all bread. VERY IMPORTANT SAMPLING</ns:Note>
+								</ns:NewOrderItem>
+								<ns:NewOrderItem>
+									<ns:Description>Food for Groups</ns:Description>
+									<ns:Id>11</ns:Id>
+									<ns:ItemId>207260</ns:ItemId>
+									<ns:Modifiers>
+										<ns:NewOrderItemModifier>
+											<ns:Description>No Protein Add-On</ns:Description>
+											<ns:Id>15</ns:Id>
+											<ns:ItemId>208029</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208031</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Cookie</ns:Description>
+											<ns:Id>13</ns:Id>
+											<ns:ItemId>207868</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207855</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Farmer *</ns:Description>
+											<ns:Id>14</ns:Id>
+											<ns:ItemId>208011</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>208006</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+										<ns:NewOrderItemModifier>
+											<ns:Description>Basil Chicken *</ns:Description>
+											<ns:Id>12</ns:Id>
+											<ns:ItemId>207978</ns:ItemId>
+											<ns:Modifiers/>
+											<ns:Price>0.00</ns:Price>
+											<ns:ModifierGroupId>207973</ns:ModifierGroupId>
+											<ns:Note/>
+										</ns:NewOrderItemModifier>
+									</ns:Modifiers>
+									<ns:Price>10.00</ns:Price>
+									<ns:DestinationId>1</ns:DestinationId>
+									<ns:Note>cut in 1/4&apos;s but PLEASE be sure sandwiches do not look like all bread. VERY IMPORTANT SAMPLING</ns:Note>
+								</ns:NewOrderItem>
+							</ns:Items>
+							<ns:Name>867 Pete Ingram</ns:Name>
+						</ns:Order>
+					</ns:request>
+				</ns:CalculateOrder>
+			</soapenv:Body>
+		</soapenv:Envelope>
+	</raw-request>
